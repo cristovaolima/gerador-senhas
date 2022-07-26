@@ -13,10 +13,13 @@
 		280CAAFE2889BC380058C857 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280CAAFC2889BC380058C857 /* Main.storyboard */; };
 		280CAB002889BC3A0058C857 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 280CAAFF2889BC3A0058C857 /* Assets.xcassets */; };
 		280CAB032889BC3A0058C857 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280CAB012889BC3A0058C857 /* LaunchScreen.storyboard */; };
+		283A3EC5288F060800EF6D44 /* PasswordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283A3EC4288F060800EF6D44 /* PasswordsViewController.swift */; };
+		283A3EC7288F09A900EF6D44 /* SecuriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283A3EC6288F09A900EF6D44 /* SecuriteViewController.swift */; };
+		283A3EC9288F0B9A00EF6D44 /* PasswordGeneretor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283A3EC8288F0B9A00EF6D44 /* PasswordGeneretor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		280CAAF32889BC380058C857 /* gerador senha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gerador senha.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		280CAAF32889BC380058C857 /* Gerador de Senha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gerador de Senha.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		280CAAF62889BC380058C857 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		280CAAF82889BC380058C857 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		280CAAFA2889BC380058C857 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +27,9 @@
 		280CAAFF2889BC3A0058C857 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		280CAB022889BC3A0058C857 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		280CAB042889BC3C0058C857 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		283A3EC4288F060800EF6D44 /* PasswordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordsViewController.swift; sourceTree = "<group>"; };
+		283A3EC6288F09A900EF6D44 /* SecuriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecuriteViewController.swift; sourceTree = "<group>"; };
+		283A3EC8288F0B9A00EF6D44 /* PasswordGeneretor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordGeneretor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +54,7 @@
 		280CAAF42889BC380058C857 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				280CAAF32889BC380058C857 /* gerador senha.app */,
+				280CAAF32889BC380058C857 /* Gerador de Senha.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +66,9 @@
 				280CAAF82889BC380058C857 /* SceneDelegate.swift */,
 				280CAAFA2889BC380058C857 /* ViewController.swift */,
 				280CAAFC2889BC380058C857 /* Main.storyboard */,
+				283A3EC8288F0B9A00EF6D44 /* PasswordGeneretor.swift */,
+				283A3EC6288F09A900EF6D44 /* SecuriteViewController.swift */,
+				283A3EC4288F060800EF6D44 /* PasswordsViewController.swift */,
 				280CAAFF2889BC3A0058C857 /* Assets.xcassets */,
 				280CAB012889BC3A0058C857 /* LaunchScreen.storyboard */,
 				280CAB042889BC3C0058C857 /* Info.plist */,
@@ -70,9 +79,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		280CAAF22889BC380058C857 /* gerador senha */ = {
+		280CAAF22889BC380058C857 /* Gerador de Senha */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 280CAB072889BC3C0058C857 /* Build configuration list for PBXNativeTarget "gerador senha" */;
+			buildConfigurationList = 280CAB072889BC3C0058C857 /* Build configuration list for PBXNativeTarget "Gerador de Senha" */;
 			buildPhases = (
 				280CAAEF2889BC380058C857 /* Sources */,
 				280CAAF02889BC380058C857 /* Frameworks */,
@@ -82,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = "gerador senha";
+			name = "Gerador de Senha";
 			productName = "gerador senha";
-			productReference = 280CAAF32889BC380058C857 /* gerador senha.app */;
+			productReference = 280CAAF32889BC380058C857 /* Gerador de Senha.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -115,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				280CAAF22889BC380058C857 /* gerador senha */,
+				280CAAF22889BC380058C857 /* Gerador de Senha */,
 			);
 		};
 /* End PBXProject section */
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				283A3EC9288F0B9A00EF6D44 /* PasswordGeneretor.swift in Sources */,
 				280CAAFB2889BC380058C857 /* ViewController.swift in Sources */,
+				283A3EC5288F060800EF6D44 /* PasswordsViewController.swift in Sources */,
 				280CAAF72889BC380058C857 /* AppDelegate.swift in Sources */,
+				283A3EC7288F09A900EF6D44 /* SecuriteViewController.swift in Sources */,
 				280CAAF92889BC380058C857 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,9 +301,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "gerador senha/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Gerador de Senhas";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -303,7 +317,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -316,9 +330,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "gerador senha/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Gerador de Senhas";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -330,7 +346,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -346,7 +362,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		280CAB072889BC3C0058C857 /* Build configuration list for PBXNativeTarget "gerador senha" */ = {
+		280CAB072889BC3C0058C857 /* Build configuration list for PBXNativeTarget "Gerador de Senha" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				280CAB082889BC3C0058C857 /* Debug */,
